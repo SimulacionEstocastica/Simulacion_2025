@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos y resultados generados (dentro de experiments)
+experiments/*/data/**
+experiments/*/results/**
+
+# No ignorar los .gitkeep (para que las carpetas existan en el repo)
+!experiments/*/data/.gitkeep
+!experiments/*/results/.gitkeep
+
+# Archivos de datos en cualquier parte
+*.npz
+*.npy
+
+# Otros
+*.log
+.venv/
